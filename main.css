@@ -1,3 +1,5 @@
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -24,9 +26,16 @@
   margin-top: 5px;
 }
 
+
 .card-header {
   background: rgb(9, 71, 94);
   padding: 5px 10px;
+}
+
+.overlay {
+  position: absolute;
+  width: 15rem;
+  margin: 0 20px;
 }
 
 .availability {
@@ -38,6 +47,7 @@
 }
 
 h2 {
+  font-family: "Cinzel", sans-serif;
   color: white;
   text-align: center;
 }
